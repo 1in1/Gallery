@@ -16,6 +16,7 @@
       "js": [
         "js/photoswipe.min.js",
         "js/photoswipe-ui-default.min.js",
+        "js/noty.min.js",
         "js/inject.js"
       ]
     }
