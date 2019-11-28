@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "4chan Gallery Extension",
+  "version": "1.0",
+
+  "description": "add a description at some point",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.4chan.org/*/"],
+      "js": ["borderify.js"]
+    }
+  ]
+
+}
