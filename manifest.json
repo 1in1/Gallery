@@ -12,9 +12,20 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.4chan.org/*/"],
-      "js": ["borderify.js"]
+      "matches": ["*://*.4chan.org/*/thread/*"],
+      "js": [
+        "js/photoswipe.min.js",
+        "js/photoswipe-ui-default.min.js",
+        "js/inject.js"
+      ]
     }
+  ],
+
+  "web_accessible_resources" :
+  [
+    "style/*"
   ]
+
+
 
 }
