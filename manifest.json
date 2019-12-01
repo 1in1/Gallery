@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.4chan.org/*/thread/*"],
+      "matches": ["*://*.4channel.org/*/thread/*", "*://*.4chan.org/*/thread/*"],
       "js": [
         "js/photoswipe.min.js",
         "js/photoswipe-ui-default.min.js",
