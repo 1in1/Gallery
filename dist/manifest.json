@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "4chan Gallery Extension",
   "version": "1.0",
@@ -20,13 +19,5 @@
         "js/inject.js"
       ]
     }
-  ],
-
-  "web_accessible_resources" :
-  [
-    "style/*"
   ]
-
-
-
 }

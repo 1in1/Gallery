@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "4chan Gallery Extension",
+  "version": "1.0",
+
+  "description": "add a description at some point",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.4channel.org/*/thread/*", "*://*.4chan.org/*/thread/*"],
+      "js": [
+        "js/photoswipe.min.js",
+        "js/photoswipe-ui-default.min.js",
+        "js/noty.min.js",
+        "js/inject.js"
+      ]
+    }
+  ]
+}
