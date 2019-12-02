@@ -20,3 +20,8 @@ IF BUILDING: Ensure you are in the root folder of the distribution, and run
 ```ruby
 ruby build.rb
 ```
+
+
+***
+
+Built with noty: https://github.com/needim/noty/blob/master/docs/README.md and PhotoSwipe: https://github.com/dimsemenov/PhotoSwipe/blob/master/README.md
