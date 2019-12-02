@@ -1,13 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "4chan Gallery Extension",
+  "name": "4channel Gallery Extension",
   "version": "1.0",
 
   "description": "add a description at some point",
-
-  "icons": {
-    "48": "icons/border-48.png"
-  },
 
   "content_scripts": [
     {
