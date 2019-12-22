@@ -27,3 +27,5 @@ end
 mainout.write("`; ")
 injsrc = RestClient.post "https://javascript-minifier.com/raw", {:input => File.open("./src/js/inject.js").read}
 mainout.puts injsrc
+
+File.open("./dist/js/download.js", "w").puts RestClient.post("https://javascript-minifier.com/raw", {:input => File.open("./src/js/download.js").read})
