@@ -2,8 +2,13 @@
   "manifest_version": 2,
   "name": "4channel Gallery Extension",
   "version": "1.0",
-
   "description": "add a description at some point",
+
+  "permissions": ["downloads"],
+
+  "background": {
+     "scripts": ["js/download.js"]
+   },
 
   "content_scripts": [
     {
