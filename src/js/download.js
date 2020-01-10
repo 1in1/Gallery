@@ -1,4 +1,4 @@
-//********************BACKGROUND SCRIPT FOR GALLERY EXTENSION********************
+//********************BACKGROUND SCRIPT FOR GALLERY EXTENSION********************//
 
 
 function dl(msg) {

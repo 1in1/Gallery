@@ -16,11 +16,10 @@ When the gallery is closed, the extension remembers the position in the gallery,
 ***
 
 INSTALLATION:
-Still installing it in debug mode at the moment.
 
-Firefox: Copy the dist folder somewhere on the local machine, and visit about:debugging in Firefox. Click "This Firefox", then "Load Temporary Add-on", and open the manifest.json file. You should then be able to visit, say, http://boards.4channel.org/ck/ , and the extension will be usable.
+Firefox: Just open the .xmi file, in /dist/firefox, with the browser. You should then be able to visit, say, http://boards.4channel.org/ck/ , and the extension will be usable.
 
-Chrome: Copy the dist folder somewhere on the local machine, and visit chrome://extension in Chrome. Turn on developer mode in the top right, click "Load unpacked", and select the dist folder. You should then be able to visit, say, http://boards.4channel.org/ck/ , and the extension will be usable.
+Chrome: Still installing it in debug mode at the moment. Copy the dist folder somewhere on the local machine, and visit chrome://extension in Chrome. Turn on developer mode in the top right, click "Load unpacked", and select the dist folder. You should then be able to visit, say, http://boards.4channel.org/ck/ , and the extension will be usable.
 
 IF BUILDING: Ensure you are in the root folder of the distribution, and run
 ```ruby
